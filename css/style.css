@@ -1,0 +1,284 @@
+body{
+  box-sizing: border-box;
+/* background-color: #ff0987; */
+  font-family:"Monserrat", sans-serif;
+  overflow-x: hidden;
+  margin:0;
+  padding: 0;
+  color:white;
+}
+ .humberger-menu{
+  padding:0 4px 0 2px;
+  margin:2px 0;
+}
+
+.menu-bar1, .menu-bar2, .menu-bar3{
+  background-color:#fff;
+  width:20px;
+  height: 2px;
+  margin:5px 0;
+}
+.the-services{
+  font-family:"Montserrat-Bold",sans-serif;
+  width: inherit;
+  display: inherit;
+  margin: 2px 0 4px 0;
+  padding:4px 0 0 0;
+  position: relative;
+
+}
+
+.the-services a{
+  text-decoration: none;
+  color: #fff;
+  padding:12px;
+  letter-spacing: 1px;
+}
+#address-location:hover{
+border: 1px solid #fff;
+}
+.the-services div:hover {
+  border: 1px solid #fff;
+}
+.humberger-menu:hover{
+    border: 1px solid #fff;
+
+}
+/* .the-services{
+  padding:1%;
+} */
+#title{
+
+position:sticky;
+}
+nav {
+  overflow:hidden;
+    width: 100%;
+    position:static;
+}
+.firstNav{
+  width: 100%;
+  height:50px;
+display:inline-flex;
+  background-color:#4a47a3;
+}
+.cart{
+  position:relative;
+
+
+
+
+}
+.firstNav #address-location{
+  /* word-wrap: break-word; */
+  display:block;
+  width:150px;
+  margin: 5px 5px;
+}
+/* The search part */
+.AZsearch{
+/* background-color:red; */
+position:relative;
+/* top: 0.3125rem; */
+width: 70%;
+
+}
+.AZsearch input[type=text]{
+  width:70%;
+  border: none;
+  border-radius:10px 0 0 10px;
+  line-height:30px;
+  margin-right: 0;
+  padding-right:-100px;
+}
+.s-btn{
+  border:none;
+background-color: #f6dcbf;
+border-radius: 0 10px 10px 0;
+/* float: right; */
+position: relative;
+top:-1px;
+right:5px;
+margin-right: 0;
+}
+.s-btn svg{
+  padding-bottom: 5px;
+  color:black;
+}
+form{
+  margin-top: 10px;
+  margin-left: 5px;
+}
+/* the humberger button */
+.btn{
+  border:1px solid white;
+  /* padding: 10px; */
+  position: relative;
+  right: 3px;
+  top: 3px;
+  background-color: ;
+}
+.secon-nav div{
+  margin-left:3px;
+}
+
+.logo{
+  padding:10px 5px 0;
+}
+.secon-nav{
+
+  display:inline-flex;
+  background-color:#709fb0;
+  width:100%;
+}
+.Electronic{
+
+}
+.electronic-items{
+  text-align: center;
+  /* width:50%; */
+  background-color:#fff;
+  margin:0.5%;
+  overflow-X:hidden;
+}
+
+.wd{
+   display:inline-flex;
+}
+.container-fluid{
+padding-left: 152px;
+  /* background-color: white; */
+
+
+
+}
+
+
+
+/*Animation part */
+
+
+.toggleMenuContainer{
+  position: relative;
+  color: black;
+   display:none;
+  width: 100%;
+  height: 100px ;
+  background-color: white;
+  margin:0 0 ;
+  top:-6px;
+
+}
+.active{
+  display:block;
+}
+
+/*The carousel Part*/
+.carousel-container{
+   position: relative;
+}
+.carousel-container .carousel__item{
+  width: 100%;
+  height:300px;
+  background-color:#42c758;
+  overflow: hidden;
+  animation: fadeVisibility 0.5s;
+}
+.carousel-container .carousel__item,
+.carousel__item--hidden{
+  display:none;
+}
+.carousel-container .carousel__item--visible{
+  display: block;
+}
+.carousel-container .carousel-actions{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-container .carousel-actions button{
+  border-radius: 50px;
+  border:0;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+}
+.carousel-container .carousel-actions button#carousel-button-prev{
+  margin-left: 20px;
+}
+.carousel-container .carousel-actions button#carousel-button-next{
+  margin-right: 20px;
+}
+
+@keyframes fadeVisibility{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+    transform: opacity linear;
+  }
+}
+
+.social-media{
+  text-align: center;
+
+}
+
+.social-media a{
+  text-decoration: none;
+  color: #fff;
+  padding-left: 3%;
+  /* padding-top: 25%; */
+}
+.footer-section{
+  background-color:grey;
+}
+.footer-section p{
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-top: 25px;
+  font-family: "verdana", monospace, sans-serif, serif;
+}
+
+.footer-section .container-fluid{
+  padding-top: 3%;
+  padding-bottom:3%;
+}
+
+.f-search{
+  border: 1px solid red;
+  width:269px;
+}
+.f-search button{
+  position: relative;
+  right: 4px;
+  border:none;
+}
+/* the grid layout for the container*/
+
+.electronic-container{
+  background:grey;
+  border: 2px solid green;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows:auto auto ;
+  grid-column-gap:5px ;
+  grid-row-gap:30px ;
+  height: auto;
+  /* justify-content: space-around; */
+  margin: auto;
+  width:auto;
+  overflow-x: hidden;
+  padding: 25px;
+}
+
+
+
+
+
+/* the test part */

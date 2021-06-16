@@ -1,0 +1,24 @@
+@media (max-width: 1185px){
+  .electronic-container{
+    grid-template-columns: 1fr 1fr 1fr;
+
+    /* justify-content: space-around; */
+  }
+}
+
+
+@media(max-width: 765px) {
+  .electronic-container{
+    grid-template-columns: 1fr 1fr;
+
+    /* justify-content: space-around; */
+  }
+}
+
+@media(max-width: 500px) {
+  .electronic-container{
+    grid-template-columns: 1fr;
+
+    /* justify-content: space-around; */
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "azshop",
+  "version": "1.0.0",
+  "description": "This is the sever of the azshop marketplace",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dieunineken Laine",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
