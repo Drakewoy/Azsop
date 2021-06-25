@@ -176,6 +176,7 @@ padding-left: 152px;
 /*The carousel Part*/
 .carousel-container{
    position: relative;
+   top: -7px;
 }
 .carousel-container .carousel__item{
   width: 100%;
@@ -235,7 +236,8 @@ padding-left: 152px;
   /* padding-top: 25%; */
 }
 .footer-section{
-  background-color:grey;
+  background:#22215E;
+  opacity: 0.90;
 }
 .footer-section p{
   text-align: center;
@@ -262,7 +264,9 @@ padding-left: 152px;
 /* the grid layout for the container*/
 
 .electronic-container{
-  background:grey;
+  position:relative;
+  top: -50px;
+  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
   border: 2px solid green;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

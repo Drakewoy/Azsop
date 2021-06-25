@@ -88,13 +88,23 @@ setInterval(moveToNextSlide, 6000);
 
 
 // The media querySelector
-var d;
-function screenResolution(x){
-  if(x.matches){
-// d =  document.getElementsByClassName("electronic-items").classList.add("col-md-6");
+// var d;
+// function screenResolution(x){
+//   if(x.matches){
+// // d =  document.getElementsByClassName("electronic-items").classList.add("col-md-6");
+//
+//   }
+// }
+// var x = window.matchMedia("(max-width:769px)")
+// screenResolution(x)
+// x.addListener(screenResolution)
 
+// The price and the description
+var price = document.getElementById('price');
+price.innerHTML = "12$";
+function priceAndDecription(price, description, area, seller){
+    this.price = price;
+    this.description = description;
+    this.area = area;
+    this.seller = seller;
   }
-}
-var x = window.matchMedia("(max-width:769px)")
-screenResolution(x)
-x.addListener(screenResolution)
