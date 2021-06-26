@@ -8,40 +8,40 @@ $(".humberger-menu").click(function(){$(".toggleMenuContainer").slideToggle();})
 //The electronic Items part start here
 //otg0
 var randomNumber1 = Math.floor(Math.random()*3)+1;
-var otgRandom = "image/otg" + randomNumber1 + ".jpeg";
+var otgRandom = "public/image/otg" + randomNumber1 + ".jpeg";
 document.querySelectorAll(".electronic-items img")[0].setAttribute("src", otgRandom);
 
 //nickon0
 var randomNumber2 = Math.floor(Math.random()*2)+1;
-var nickonRandom = "image/nickon" + randomNumber2 + ".jpeg";
+var nickonRandom = "public/image/nickon" + randomNumber2 + ".jpeg";
 document.querySelectorAll(".electronic-items img")[1].setAttribute("src", nickonRandom);
 
 //phone0
-var phoneRandom ="image/a" + randomNumber2 + ".jpeg" ;
+var phoneRandom ="public/image/a" + randomNumber2 + ".jpeg" ;
 document.querySelectorAll(".electronic-items img")[2].setAttribute("src", phoneRandom);
 
 //laptop0
-var laptopRandom ="image/mac" + randomNumber2 + ".jpeg";
+var laptopRandom ="public/image/mac" + randomNumber2 + ".jpeg";
 document.querySelectorAll(".electronic-items img")[3].setAttribute("src", laptopRandom);
 
 //The second electronic part
 
 //otg1
 var randomNumber1 = Math.floor(Math.random()*3)+1;
-var otgRandom = "image/otg" + randomNumber1 + ".jpeg";
+var otgRandom = "public/image/otg" + randomNumber1 + ".jpeg";
 document.querySelectorAll(".electronic-items img")[4].setAttribute("src", otgRandom);
 
 //nickon1
 var randomNumber2 = Math.floor(Math.random()*2)+1;
-var nickonRandom = "image/nickon" + randomNumber2 + ".jpeg";
+var nickonRandom = "public/image/nickon" + randomNumber2 + ".jpeg";
 document.querySelectorAll(".electronic-items img")[5].setAttribute("src", nickonRandom);
 
 //phone1
-var phoneRandom ="image/a" + randomNumber2 + ".jpeg" ;
+var phoneRandom ="public/image/a" + randomNumber2 + ".jpeg" ;
 document.querySelectorAll(".electronic-items img")[6].setAttribute("src", phoneRandom);
 
 //laptop1
-var laptopRandom ="image/mac" + randomNumber2 + ".jpeg";
+var laptopRandom ="public/image/mac" + randomNumber2 + ".jpeg";
 document.querySelectorAll(".electronic-items img")[7].setAttribute("src", laptopRandom);
 
 // The electronic items ends here.
