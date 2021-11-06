@@ -8,40 +8,40 @@ $(".humberger-menu").click(function(){$(".toggleMenuContainer").slideToggle();})
 //The electronic Items part start here
 //otg0
 var randomNumber1 = Math.floor(Math.random()*3)+1;
-var otgRandom = "public/image/otg" + randomNumber1 + ".jpeg";
+var otgRandom = "image/elect/otg" + randomNumber1 + ".jpeg";
 document.querySelectorAll(".electronic-items img")[0].setAttribute("src", otgRandom);
 
 //nickon0
 var randomNumber2 = Math.floor(Math.random()*2)+1;
-var nickonRandom = "public/image/nickon" + randomNumber2 + ".jpeg";
+var nickonRandom = "image/elect/nickon" + randomNumber2 + ".jpeg";
 document.querySelectorAll(".electronic-items img")[1].setAttribute("src", nickonRandom);
 
 //phone0
-var phoneRandom ="public/image/a" + randomNumber2 + ".jpeg" ;
+var phoneRandom ="image/elect/a" + randomNumber2 + ".jpeg" ;
 document.querySelectorAll(".electronic-items img")[2].setAttribute("src", phoneRandom);
 
 //laptop0
-var laptopRandom ="public/image/mac" + randomNumber2 + ".jpeg";
+var laptopRandom ="image/elect/mac" + randomNumber2 + ".jpeg";
 document.querySelectorAll(".electronic-items img")[3].setAttribute("src", laptopRandom);
 
 //The second electronic part
 
 //otg1
 var randomNumber1 = Math.floor(Math.random()*3)+1;
-var otgRandom = "public/image/otg" + randomNumber1 + ".jpeg";
+var otgRandom = "image/elect/otg" + randomNumber1 + ".jpeg";
 document.querySelectorAll(".electronic-items img")[4].setAttribute("src", otgRandom);
 
 //nickon1
 var randomNumber2 = Math.floor(Math.random()*2)+1;
-var nickonRandom = "public/image/nickon" + randomNumber2 + ".jpeg";
+var nickonRandom = "image/elect/nickon" + randomNumber2 + ".jpeg";
 document.querySelectorAll(".electronic-items img")[5].setAttribute("src", nickonRandom);
 
 //phone1
-var phoneRandom ="public/image/a" + randomNumber2 + ".jpeg" ;
+var phoneRandom ="image/elect/a" + randomNumber2 + ".jpeg" ;
 document.querySelectorAll(".electronic-items img")[6].setAttribute("src", phoneRandom);
 
 //laptop1
-var laptopRandom ="public/image/mac" + randomNumber2 + ".jpeg";
+var laptopRandom ="image/elect/mac" + randomNumber2 + ".jpeg";
 document.querySelectorAll(".electronic-items img")[7].setAttribute("src", laptopRandom);
 
 // The electronic items ends here.
@@ -101,10 +101,16 @@ setInterval(moveToNextSlide, 6000);
 
 // The price and the description
 var price = document.getElementById('price');
-price.innerHTML = "12$";
+price.innerHTML = "";
 function priceAndDecription(price, description, area, seller){
     this.price = price;
     this.description = description;
     this.area = area;
     this.seller = seller;
   }
+
+//#####The footer part #####
+
+//1- The Subsctrbe part.
+
+const sub = doument.getElementById('')
