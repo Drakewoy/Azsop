@@ -1,7 +1,7 @@
 body{
   box-sizing: border-box;
-/* background-color: #ff0987; */
-  font-family:"Monserrat", sans-serif;
+  font-family:"Arial",sans-serif;
+  font-size: 16px;
   overflow-x: hidden;
   margin:0;
   padding: 0;
@@ -66,13 +66,12 @@ nav {
   height:50px;
   width: 100%;
 }
-.cart{
+/* .cart{
   position:relative;
-
-
-
-
-}
+margin-right: auto;
+width:40px;
+height: auto;
+} */
 .firstNav #address-location{
   /* word-wrap: break-word; */
   display:block;
@@ -83,33 +82,34 @@ nav {
 .AZsearch{
 /* background-color:red; */
 position:relative;
+
 /* top: 0.3125rem; */
-/* width: 600px; */
-padding:0;
+width: 700px;
+/*background-color: #22215E;*/
 
 }
 .AZsearch input[type=text]{
-  width: 600px;
+  width: 95%;
   border: none;
   border-radius:10px 0 0 10px;
   line-height:30px;
   margin-right: 0;
-  padding-right:-100px;
+  /* padding-right:-100px; */
 }
-.s-btn{
+.s-bt{
   border:none;
-background-color: #f6dcbf;
+background-color:white;
 border-radius: 0 10px 10px 0;
 /* float: right; */
 position: relative;
-top:-1px;
-/* right:5px; */
+top:-1px; 
+right:5px;
 margin-right: 0;
-/* width:10%; */
+width:10 ;
 }
-.s-btn svg{
-  padding-bottom: 5px;
-  color:black;
+.s-bt svg{
+  padding-bottom: 2px;
+  color:rgb(78, 39, 129);
 }
 form{
   margin-top: 10px;
@@ -280,7 +280,11 @@ padding-left: 152px;
   position:absolute;
   font-family:;
 }
-
+  
+div.listOfServices ul, h1{
+  display: inline-block;
+  /* background-color: red; */
+}
 
 /* the grid layout for the container*/
 
@@ -304,8 +308,17 @@ padding-left: 152px;
 
 .user_interacting{
   margin-left: auto;
+width:12.25rem;
+background: #00e888;
+}
+.user_interacting .ul_item{
+ margin: 3px 2px 3px 2px;
+ display: inline-block;
 }
 
-.user_interacting .uI_item{
- margin: 3px 10px 3px 3px;
+
+.ul_item img{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
 }

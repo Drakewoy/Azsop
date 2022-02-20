@@ -32,14 +32,14 @@ position:relative;
 .elec-i{
   /* height: 350px; */
   border-radius: 10px;
-  background-color: #E8EEF7;
+  background-color: #fff;
   /* border: 3px solid #DEE1BD; */
   margin:30px 10px 0 0 ;
     /* overflow-y:hidden; */
 }
-
-.elec-i-img img{
-  margin-left: 17px;
+div.elec-i-img{
+  padding: 15px;
+  text-align: center;
 }
 
 .elec-i a {
@@ -56,9 +56,9 @@ text-decoration: none;
   /* margin-left: 5px; */
 }
 
-.elec-i .elect-t{
-  width:250px;
+.elec-i .des{
+  /* width:250px; */
   color:#333;
-  margin:10px 5px 5px 5px;
+  margin:10px 12px 5px 12px;
 
 }
